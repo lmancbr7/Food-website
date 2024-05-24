@@ -46,12 +46,34 @@ section nav ul li a{
     color: #000;
     font-weight: 500;
     font-size: 17px;
+    transition: 0.1s;
 }
 
 section nav ul li a::after{
     content: '';
-    width: 100%;
+    width: 0;
     height: 2px;
     background: #fac031;
     display: block;
+    transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color: #fac031;
+}
+
+section nav .icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .icon i:hover{
+    color: #fac031;
 }
