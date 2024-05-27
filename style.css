@@ -462,3 +462,26 @@ section .main_btn:hover i{
     bottom: 15px;
     display: block;
 }
+
+.review .review_box{
+    width: 95%;
+    margin: 70px auto;
+    display: flex;
+}
+
+.review .review_box .review_card{
+    width: 350px;
+    height: 485px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0 8px;
+}
+
+.review .review_box .review_card .review_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+}
