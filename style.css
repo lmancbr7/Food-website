@@ -485,3 +485,46 @@ section .main_btn:hover i{
     position: relative;
     transition: 0.3s;
 }
+
+.review .review_box .review_card:hover .review_profile{
+    transform: translateY(-60px);
+}
+
+.review .review_box .review_card .review_profile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+}
+
+.review .review_box .review_card .review_text{
+    text-align: center;
+}
+
+.review .review_box .review_card .review_text .name{
+    color: #000;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .name{
+    transform: translateY(-50px);
+}
+
+.review .review_box .review_card .review_text .review_icon{
+    color: #fac031;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_icon{
+    transform: translateY(-30px);
+}
+
+.review .review_box .review_card .review_text .review_social i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
